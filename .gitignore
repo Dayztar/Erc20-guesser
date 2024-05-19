@@ -1,0 +1,7 @@
+
+*.js
+*.map
+*.md
+*.html
+*.json
+/node_modules

