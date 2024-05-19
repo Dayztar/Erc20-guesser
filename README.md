@@ -10,7 +10,7 @@
 <p>To check Tron make sure you have node js install run</p>
 <code>npm install package.json</code><br>
 <code>node index.js</code>
-<p>Please do not exhuast my API's they are used for testing, get yours or contact me on telegram @H0x07 on steps on how to install and get your own APIS</p>
+<p>Please do not exhuast my API's they are used for testing, get yours or contact me on telegram adam.1man@aol.com on steps on how to install and get your own APIS</p>
 <h1>Donation</h1>
 <p>If you would like to suppor the development of this tool or you found something and would like to share.</p>
 <p>btc: bc1qmg75wtr3clmww59mdkwlv3gszysmljncam5eap</p>
